@@ -12,12 +12,12 @@ namespace CodeShort2_TL
 
         static void Main(string[] args)
         {
-
+            Program myProgramInstance = new Program();
             Console.OpenStandardOutput();
             bool inputtingData = true;
             decimal circleArea;
             decimal circleCircumference;
-
+            int i = 0;
             while (inputtingData)
             {
                 Console.Write("Enter the radius of a circle: (type ? to end)");
@@ -31,9 +31,10 @@ namespace CodeShort2_TL
                 if (decimal.TryParse(data, out result))
                 {
                     // compute area and circumference
-                    circleArea = computeCircleArea(result);
+                    circleArea = myProgramInstance.computeCircleArea(result);
                     circleCircumference = computeCircleCircumference(result);
-                    Console.WriteLine("Area = {0}", circleArea);
+                    Console.WriteLine("Area = {0}, {1}", circleArea, circleCircumference);
+                    Console.WriteLine("Area = " + circleArea.ToString() + " " + circleCircumference.ToString());
                     Console.WriteLine("Circumference = {0}", circleCircumference);
                 }
                 else
@@ -46,9 +47,9 @@ namespace CodeShort2_TL
         }
 
 
-        static decimal computeCircleArea(decimal radius)
+         decimal computeCircleArea(decimal radius)
         {
-            decimal area = Program.PI * radius*radius;
+            decimal area = Program.PI * radius*radius;  // radius;
             return area;
         }
 
