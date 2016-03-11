@@ -15,6 +15,8 @@ namespace SimpleBeerStore
         public Form1()
         {
             InitializeComponent();
+            //Brad's comment
+
         }
     }
 }
