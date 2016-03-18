@@ -46,22 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ShoppingCart.cs">
+    <Compile Include="BeerFront.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ShoppingCart.Designer.cs">
-      <DependentUpon>ShoppingCart.cs</DependentUpon>
-    </Compile>
-    <Compile Include="StoreFront.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="StoreFront.Designer.cs">
-      <DependentUpon>StoreFront.cs</DependentUpon>
+    <Compile Include="BeerFront.Designer.cs">
+      <DependentUpon>BeerFront.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="StoreFront.resx">
-      <DependentUpon>StoreFront.cs</DependentUpon>
+    <EmbeddedResource Include="BeerFront.resx">
+      <DependentUpon>BeerFront.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
