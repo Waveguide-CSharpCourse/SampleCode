@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace SimpleBeerStore
 {
-    public partial class Form1 : Form
+    public partial class Storefront : Form
     {
-        public Form1()
+        public Storefront()
         {
             InitializeComponent();
             //Brad's comment
