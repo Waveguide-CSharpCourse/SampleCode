@@ -46,16 +46,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Storefront.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Storefront.Designer.cs">
-      <DependentUpon>Storefront.cs</DependentUpon>
+    <Compile Include="BeerFront.cs" />
+    <Compile Include="BeerFront.Designer.cs">
+      <DependentUpon>BeerFront.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Storefront.resx">
-      <DependentUpon>Storefront.cs</DependentUpon>
+    <EmbeddedResource Include="BeerFront.resx">
+      <DependentUpon>BeerFront.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
